@@ -1,0 +1,139 @@
+movieId,title,genres,year
+1,Toy Story ,"['Adventure', 'Animation', 'Children', 'Comedy', 'Fantasy']",1995
+2,Jumanji ,"['Adventure', 'Children', 'Fantasy']",1995
+6,Heat ,"['Action', 'Crime', 'Thriller']",1995
+10,GoldenEye ,"['Action', 'Adventure', 'Thriller']",1995
+32,Twelve Monkeys (a.k.a. 12 Monkeys) ,"['Mystery', 'Sci-Fi', 'Thriller']",1995
+34,Babe ,"['Children', 'Drama']",1995
+39,Clueless ,"['Comedy', 'Romance']",1995
+47,Seven (a.k.a. Se7en) ,"['Mystery', 'Thriller']",1995
+50,"Usual Suspects, The ","['Crime', 'Mystery', 'Thriller']",1995
+110,Braveheart ,"['Action', 'Drama', 'War']",1995
+111,Taxi Driver ,"['Crime', 'Drama', 'Thriller']",1976
+150,Apollo 13 ,"['Adventure', 'Drama', 'IMAX']",1995
+153,Batman Forever ,"['Action', 'Adventure', 'Comedy', 'Crime']",1995
+161,Crimson Tide ,"['Drama', 'Thriller', 'War']",1995
+165,Die Hard: With a Vengeance ,"['Action', 'Crime', 'Thriller']",1995
+185,"Net, The ","['Action', 'Crime', 'Thriller']",1995
+208,Waterworld ,"['Action', 'Adventure', 'Sci-Fi']",1995
+223,Clerks ,['Comedy'],1994
+231,Dumb & Dumber (Dumb and Dumber) ,"['Adventure', 'Comedy']",1994
+253,Interview with the Vampire: The Vampire Chronicles ,"['Drama', 'Horror']",1994
+260,Star Wars: Episode IV - A New Hope ,"['Action', 'Adventure', 'Sci-Fi']",1977
+292,Outbreak ,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",1995
+293,Léon: The Professional (a.k.a. The Professional) (Léon) ,"['Action', 'Crime', 'Drama', 'Thriller']",1994
+296,Pulp Fiction ,"['Comedy', 'Crime', 'Drama', 'Thriller']",1994
+316,Stargate ,"['Action', 'Adventure', 'Sci-Fi']",1994
+318,"Shawshank Redemption, The ","['Crime', 'Drama']",1994
+329,Star Trek: Generations ,"['Adventure', 'Drama', 'Sci-Fi']",1994
+344,Ace Ventura: Pet Detective ,['Comedy'],1994
+349,Clear and Present Danger ,"['Action', 'Crime', 'Drama', 'Thriller']",1994
+356,Forrest Gump ,"['Comedy', 'Drama', 'Romance', 'War']",1994
+357,Four Weddings and a Funeral ,"['Comedy', 'Romance']",1994
+364,"Lion King, The ","['Adventure', 'Animation', 'Children', 'Drama', 'Musical', 'IMAX']",1994
+367,"Mask, The ","['Action', 'Comedy', 'Crime', 'Fantasy']",1994
+377,Speed ,"['Action', 'Romance', 'Thriller']",1994
+380,True Lies ,"['Action', 'Adventure', 'Comedy', 'Romance', 'Thriller']",1994
+434,Cliffhanger ,"['Action', 'Adventure', 'Thriller']",1993
+454,"Firm, The ","['Drama', 'Thriller']",1993
+457,"Fugitive, The ",['Thriller'],1993
+480,Jurassic Park ,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",1993
+500,Mrs. Doubtfire ,"['Comedy', 'Drama']",1993
+527,Schindler's List ,"['Drama', 'War']",1993
+539,Sleepless in Seattle ,"['Comedy', 'Drama', 'Romance']",1993
+541,Blade Runner ,"['Action', 'Sci-Fi', 'Thriller']",1982
+586,Home Alone ,"['Children', 'Comedy']",1990
+587,Ghost ,"['Comedy', 'Drama', 'Fantasy', 'Romance', 'Thriller']",1990
+588,Aladdin ,"['Adventure', 'Animation', 'Children', 'Comedy', 'Musical']",1992
+589,Terminator 2: Judgment Day ,"['Action', 'Sci-Fi']",1991
+590,Dances with Wolves ,"['Adventure', 'Drama', 'Western']",1990
+592,Batman ,"['Action', 'Crime', 'Thriller']",1989
+593,"Silence of the Lambs, The ","['Crime', 'Horror', 'Thriller']",1991
+595,Beauty and the Beast ,"['Animation', 'Children', 'Fantasy', 'Musical', 'Romance', 'IMAX']",1991
+597,Pretty Woman ,"['Comedy', 'Romance']",1990
+608,Fargo ,"['Comedy', 'Crime', 'Drama', 'Thriller']",1996
+648,Mission: Impossible ,"['Action', 'Adventure', 'Mystery', 'Thriller']",1996
+733,"Rock, The ","['Action', 'Adventure', 'Thriller']",1996
+736,Twister ,"['Action', 'Adventure', 'Romance', 'Thriller']",1996
+778,Trainspotting ,"['Comedy', 'Crime', 'Drama']",1996
+780,Independence Day (a.k.a. ID4) ,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",1996
+858,"Godfather, The ","['Crime', 'Drama']",1972
+912,Casablanca ,"['Drama', 'Romance']",1942
+924,2001: A Space Odyssey ,"['Adventure', 'Drama', 'Sci-Fi']",1968
+1036,Die Hard ,"['Action', 'Crime', 'Thriller']",1988
+1073,Willy Wonka & the Chocolate Factory ,"['Children', 'Comedy', 'Fantasy', 'Musical']",1971
+1089,Reservoir Dogs ,"['Crime', 'Mystery', 'Thriller']",1992
+1097,E.T. the Extra-Terrestrial ,"['Children', 'Drama', 'Sci-Fi']",1982
+1136,Monty Python and the Holy Grail ,"['Adventure', 'Comedy', 'Fantasy']",1975
+1193,One Flew Over the Cuckoo's Nest ,['Drama'],1975
+1196,Star Wars: Episode V - The Empire Strikes Back ,"['Action', 'Adventure', 'Sci-Fi']",1980
+1197,"Princess Bride, The ","['Action', 'Adventure', 'Comedy', 'Fantasy', 'Romance']",1987
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) ,"['Action', 'Adventure']",1981
+1200,Aliens ,"['Action', 'Adventure', 'Horror', 'Sci-Fi']",1986
+1206,"Clockwork Orange, A ","['Crime', 'Drama', 'Sci-Fi', 'Thriller']",1971
+1208,Apocalypse Now ,"['Action', 'Drama', 'War']",1979
+1210,Star Wars: Episode VI - Return of the Jedi ,"['Action', 'Adventure', 'Sci-Fi']",1983
+1213,Goodfellas ,"['Crime', 'Drama']",1990
+1214,Alien ,"['Horror', 'Sci-Fi']",1979
+1221,"Godfather: Part II, The ","['Crime', 'Drama']",1974
+1222,Full Metal Jacket ,"['Drama', 'War']",1987
+1240,"Terminator, The ","['Action', 'Sci-Fi', 'Thriller']",1984
+1258,"Shining, The ",['Horror'],1980
+1265,Groundhog Day ,"['Comedy', 'Fantasy', 'Romance']",1993
+1270,Back to the Future ,"['Adventure', 'Comedy', 'Sci-Fi']",1985
+1291,Indiana Jones and the Last Crusade ,"['Action', 'Adventure']",1989
+1517,Austin Powers: International Man of Mystery ,"['Action', 'Adventure', 'Comedy']",1997
+1527,"Fifth Element, The ","['Action', 'Adventure', 'Comedy', 'Sci-Fi']",1997
+1580,Men in Black (a.k.a. MIB) ,"['Action', 'Comedy', 'Sci-Fi']",1997
+1682,"Truman Show, The ","['Comedy', 'Drama', 'Sci-Fi']",1998
+1704,Good Will Hunting ,"['Drama', 'Romance']",1997
+1721,Titanic ,"['Drama', 'Romance']",1997
+1732,"Big Lebowski, The ","['Comedy', 'Crime']",1998
+1923,There's Something About Mary ,"['Comedy', 'Romance']",1998
+1968,"Breakfast Club, The ","['Comedy', 'Drama']",1985
+2028,Saving Private Ryan ,"['Action', 'Drama', 'War']",1998
+2115,Indiana Jones and the Temple of Doom ,"['Action', 'Adventure', 'Fantasy']",1984
+2329,American History X ,"['Crime', 'Drama']",1998
+2571,"Matrix, The ","['Action', 'Sci-Fi', 'Thriller']",1999
+2628,Star Wars: Episode I - The Phantom Menace ,"['Action', 'Adventure', 'Sci-Fi']",1999
+2683,Austin Powers: The Spy Who Shagged Me ,"['Action', 'Adventure', 'Comedy']",1999
+2706,American Pie ,"['Comedy', 'Romance']",1999
+2716,Ghostbusters (a.k.a. Ghost Busters) ,"['Action', 'Comedy', 'Sci-Fi']",1984
+2762,"Sixth Sense, The ","['Drama', 'Horror', 'Mystery']",1999
+2858,American Beauty ,"['Drama', 'Romance']",1999
+2918,Ferris Bueller's Day Off ,['Comedy'],1986
+2959,Fight Club ,"['Action', 'Crime', 'Drama', 'Thriller']",1999
+3147,"Green Mile, The ","['Crime', 'Drama']",1999
+3578,Gladiator ,"['Action', 'Adventure', 'Drama']",2000
+3793,X-Men ,"['Action', 'Adventure', 'Sci-Fi']",2000
+3996,"Crouching Tiger, Hidden Dragon (Wo hu cang long) ","['Action', 'Drama', 'Romance']",2000
+4022,Cast Away ,['Drama'],2000
+4226,Memento ,"['Mystery', 'Thriller']",2000
+4306,Shrek ,"['Adventure', 'Animation', 'Children', 'Comedy', 'Fantasy', 'Romance']",2001
+4878,Donnie Darko ,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",2001
+4886,"Monsters, Inc. ","['Adventure', 'Animation', 'Children', 'Comedy', 'Fantasy']",2001
+4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) ,"['Adventure', 'Children', 'Fantasy']",2001
+4963,Ocean's Eleven ,"['Crime', 'Thriller']",2001
+4973,"Amelie (Fabuleux destin d'Amélie Poulain, Le) ","['Comedy', 'Romance']",2001
+4993,"Lord of the Rings: The Fellowship of the Ring, The ","['Adventure', 'Fantasy']",2001
+4995,"Beautiful Mind, A ","['Drama', 'Romance']",2001
+5349,Spider-Man ,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2002
+5418,"Bourne Identity, The ","['Action', 'Mystery', 'Thriller']",2002
+5445,Minority Report ,"['Action', 'Crime', 'Mystery', 'Sci-Fi', 'Thriller']",2002
+5816,Harry Potter and the Chamber of Secrets ,"['Adventure', 'Fantasy']",2002
+5952,"Lord of the Rings: The Two Towers, The ","['Adventure', 'Fantasy']",2002
+5989,Catch Me If You Can ,"['Crime', 'Drama']",2002
+6377,Finding Nemo ,"['Adventure', 'Animation', 'Children', 'Comedy']",2003
+6539,Pirates of the Caribbean: The Curse of the Black Pearl ,"['Action', 'Adventure', 'Comedy', 'Fantasy']",2003
+6874,Kill Bill: Vol. 1 ,"['Action', 'Crime', 'Thriller']",2003
+7153,"Lord of the Rings: The Return of the King, The ","['Action', 'Adventure', 'Drama', 'Fantasy']",2003
+7361,Eternal Sunshine of the Spotless Mind ,"['Drama', 'Romance', 'Sci-Fi']",2004
+7438,Kill Bill: Vol. 2 ,"['Action', 'Drama', 'Thriller']",2004
+8961,"Incredibles, The ","['Action', 'Adventure', 'Animation', 'Children', 'Comedy']",2004
+33794,Batman Begins ,"['Action', 'Crime', 'IMAX']",2005
+44191,V for Vendetta ,"['Action', 'Sci-Fi', 'Thriller', 'IMAX']",2006
+48516,"Departed, The ","['Crime', 'Drama', 'Thriller']",2006
+58559,"Dark Knight, The ","['Action', 'Crime', 'Drama', 'IMAX']",2008
+60069,WALL·E ,"['Adventure', 'Animation', 'Children', 'Romance', 'Sci-Fi']",2008
+68954,Up ,"['Adventure', 'Animation', 'Children', 'Drama']",2009
+79132,Inception ,"['Action', 'Crime', 'Drama', 'Mystery', 'Sci-Fi', 'Thriller', 'IMAX']",2010
