@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from fuzzywuzzy import process
 from sklearn.metrics.pairwise import cosine_similarity
-import math
 
 ### Lógica do sistema
 
