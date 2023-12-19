@@ -138,10 +138,6 @@ def get_n_recommendations(user: int, n: int, user_movie_mat: pd.DataFrame, users
 # Função para gerar recomendações (substitua isso pelo seu script real)
 def gerar_recomendacoes(usuario_selecionado):
 
-    
-    
-
-
     users_list = list(user_movie_train.columns)
     movies_list = list(user_movie_train.index)
 
@@ -153,13 +149,13 @@ def gerar_recomendacoes(usuario_selecionado):
 # Configuração da página
 st.set_page_config(
     page_title="EACHFLIX",
-    page_icon="assets\icon.png",  # Substitua pelo caminho do ícone desejado
+    page_icon="assets/icon.png",  # Substitua pelo caminho do ícone desejado
     layout="wide"
 )
 
 # Título e descrição do projeto
 st.title("Projeto da Disciplina \"Análise de Redes Sociais\"")
-st.image("assets\logo.png", use_column_width=True)  # Substitua pelo caminho da sua imagem de logo
+st.image("assets/logo.png", use_column_width=True)  # Substitua pelo caminho da sua imagem de logo
 st.markdown("""
 # Bem-vindo à EACHFLIX!
 
