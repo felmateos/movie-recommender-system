@@ -1,153 +1,174 @@
-Summary
-=======
-
-This dataset (ml-latest-small) describes 5-star rating and free-text tagging activity from [MovieLens](http://movielens.org), a movie recommendation service. It contains 100836 ratings and 3683 tag applications across 9742 movies. These data were created by 610 users between March 29, 1996 and September 24, 2018. This dataset was generated on September 26, 2018.
-
-Users were selected at random for inclusion. All selected users had rated at least 20 movies. No demographic information is included. Each user is represented by an id, and no other information is provided.
-
-The data are contained in the files `links.csv`, `movies.csv`, `ratings.csv` and `tags.csv`. More details about the contents and use of all these files follows.
-
-This is a *development* dataset. As such, it may change over time and is not an appropriate dataset for shared research results. See available *benchmark* datasets if that is your intent.
-
-This and other GroupLens data sets are publicly available for download at <http://grouplens.org/datasets/>.
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
 
-Usage License
-=============
 
-Neither the University of Minnesota nor any of the researchers involved can guarantee the correctness of the data, its suitability for any particular purpose, or the validity of results based on the use of the data set. The data set may be used for any research purposes under the following conditions:
-
-* The user may not state or imply any endorsement from the University of Minnesota or the GroupLens Research Group.
-* The user must acknowledge the use of the data set in publications resulting from the use of the data set (see below for citation information).
-* The user may redistribute the data set, including transformations, so long as it is distributed under these same license conditions.
-* The user may not use this information for any commercial or revenue-bearing purposes without first obtaining permission from a faculty member of the GroupLens Research Project at the University of Minnesota.
-* The executable software scripts are provided "as is" without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of them is with you. Should the program prove defective, you assume the cost of all necessary servicing, repair or correction.
-
-In no event shall the University of Minnesota, its affiliates or employees be liable to you for any damages arising out of the use or inability to use these programs (including but not limited to loss of data or data being rendered inaccurate).
-
-If you have any further questions or comments, please email <grouplens-info@umn.edu>
-
-
-Citation
-========
-
-To acknowledge use of the dataset in publications, please cite the following paper:
-
-> F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. <https://doi.org/10.1145/2827872>
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+<!-- [![Contributors][contributors-shield]][contributors-url] -->
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
-Further Information About GroupLens
-===================================
 
-GroupLens is a research group in the Department of Computer Science and Engineering at the University of Minnesota. Since its inception in 1992, GroupLens's research projects have explored a variety of fields including:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="assets/icon.png" alt="Logo" width="80" height="80">
+  </a>
 
-* recommender systems
-* online communities
-* mobile and ubiquitious technologies
-* digital libraries
-* local geographic information systems
+  <h3 align="center">EACHFLIX</h3>
 
-GroupLens Research operates a movie recommender based on collaborative filtering, MovieLens, which is the source of these data. We encourage you to visit <http://movielens.org> to try it out! If you have exciting ideas for experimental work to conduct on MovieLens, send us an email at <grouplens-info@cs.umn.edu> - we are always interested in working with external collaborators.
+  <p align="center">
+    Sistema de recomendação de filmes
+    <br />
+    <br />
+    <a href="https://eachflix.streamlit.app/">Ver Demo</a>
+    ·
+    <a href="https://github.com/felmateos/movie-recommender-system/issues">Reportar Bug</a>
+    ·
+    <a href="https://github.com/felmateos/movie-recommender-system/issues">Solicitar função</a>
+  </p>
+</div>
 
+<!-- ABOUT THE PROJECT -->
+## Sobre o Projeto
 
-Content and Use of Files
-========================
+[![Product Name Screen Shot][product-screenshot]](assets\home_screen.png)
 
-Formatting and Encoding
------------------------
+# Bem-vindo à EACHFLIX!
 
-The dataset files are written as [comma-separated values](http://en.wikipedia.org/wiki/Comma-separated_values) files with a single header row. Columns that contain commas (`,`) are escaped using double-quotes (`"`). These files are encoded as UTF-8. If accented characters in movie titles or tag values (e.g. Misérables, Les (1995)) display incorrectly, make sure that any program reading the data, such as a text editor, terminal, or script, is configured for UTF-8.
+Esta plataforma inovadora utiliza um sistema de recomendação baseado em filtro colaborativo com similaridade por cosseno. Ao integrar dados de filmes da Netflix obtidos do The Movie Database (TMDb), proporcionamos uma experiência personalizada, ajudando você a descobrir novos filmes com base nas suas preferências únicas.
 
+## Como Funciona:
 
-User Ids
---------
+1. **Selecione seu Usuário:** Escolha um usuário entre os usuários disponíveis em nossa base de dados. Cada usuário representa diferentes gostos e preferências cinematográficas.
 
-MovieLens users were selected at random for inclusion. Their ids have been anonymized. User ids are consistent between `ratings.csv` and `tags.csv` (i.e., the same id refers to the same user across the two files).
+2. **Explore Recomendações Personalizadas:** Ao clicar no botão "Gerar Recomendações", nosso algoritmo de filtro colaborativo entra em ação, analisando padrões de visualização semelhantes entre usuários e recomendando filmes que o usuário selecionado provavelemente melhor avaliaria.
 
+3. **Descubra Novos Filmes:** As recomendações são apresentadas em uma lista organizada, contendo informações sobre cada filme, como nome e a nota prevista. Explore essas sugestões personalizadas e encontre filmes que correspondam aos seus interesses.
 
-Movie Ids
----------
-
-Only movies with at least one rating or tag are included in the dataset. These movie ids are consistent with those used on the MovieLens web site (e.g., id `1` corresponds to the URL <https://movielens.org/movies/1>). Movie ids are consistent between `ratings.csv`, `tags.csv`, `movies.csv`, and `links.csv` (i.e., the same id refers to the same movie across these four data files).
-
-
-Ratings Data File Structure (ratings.csv)
------------------------------------------
-
-All ratings are contained in the file `ratings.csv`. Each line of this file after the header row represents one rating of one movie by one user, and has the following format:
-
-    userId,movieId,rating,timestamp
-
-The lines within this file are ordered first by userId, then, within user, by movieId.
-
-Ratings are made on a 5-star scale, with half-star increments (0.5 stars - 5.0 stars).
-
-Timestamps represent seconds since midnight Coordinated Universal Time (UTC) of January 1, 1970.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-Tags Data File Structure (tags.csv)
------------------------------------
 
-All tags are contained in the file `tags.csv`. Each line of this file after the header row represents one tag applied to one movie by one user, and has the following format:
+### O que usamos
 
-    userId,movieId,tag,timestamp
-
-The lines within this file are ordered first by userId, then, within user, by movieId.
-
-Tags are user-generated metadata about movies. Each tag is typically a single word or short phrase. The meaning, value, and purpose of a particular tag is determined by each user.
-
-Timestamps represent seconds since midnight Coordinated Universal Time (UTC) of January 1, 1970.
+* [![Python][Python]][React-url]
 
 
-Movies Data File Structure (movies.csv)
----------------------------------------
-
-Movie information is contained in the file `movies.csv`. Each line of this file after the header row represents one movie, and has the following format:
-
-    movieId,title,genres
-
-Movie titles are entered manually or imported from <https://www.themoviedb.org/>, and include the year of release in parentheses. Errors and inconsistencies may exist in these titles.
-
-Genres are a pipe-separated list, and are selected from the following:
-
-* Action
-* Adventure
-* Animation
-* Children's
-* Comedy
-* Crime
-* Documentary
-* Drama
-* Fantasy
-* Film-Noir
-* Horror
-* Musical
-* Mystery
-* Romance
-* Sci-Fi
-* Thriller
-* War
-* Western
-* (no genres listed)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-Links Data File Structure (links.csv)
----------------------------------------
 
-Identifiers that can be used to link to other sources of movie data are contained in the file `links.csv`. Each line of this file after the header row represents one movie, and has the following format:
+<!-- GETTING STARTED -->
+## Como usar
 
-    movieId,imdbId,tmdbId
+Aqui apresentamos a forma como você pode baixar e usar o nosso sistema.
 
-movieId is an identifier for movies used by <https://movielens.org>. E.g., the movie Toy Story has the link <https://movielens.org/movies/1>.
+### Instalação
 
-imdbId is an identifier for movies used by <http://www.imdb.com>. E.g., the movie Toy Story has the link <http://www.imdb.com/title/tt0114709/>.
+1. Clone o repositório
+   ```sh
+   git clone https://github.com/felmateos/movie-recommender-system.git
+   ```
+3. Instale os pacotes necessários
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-tmdbId is an identifier for movies used by <https://www.themoviedb.org>. E.g., the movie Toy Story has the link <https://www.themoviedb.org/movie/862>.
-
-Use of the resources listed above is subject to the terms of each provider.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-Cross-Validation
-----------------
+<!-- USAGE EXAMPLES -->
+## Uso
 
-Prior versions of the MovieLens dataset included either pre-computed cross-folds or scripts to perform this computation. We no longer bundle either of these features with the dataset, since most modern toolkits provide this as a built-in feature. If you wish to learn about standard approaches to cross-fold computation in the context of recommender systems evaluation, see [LensKit](http://lenskit.org) for tools, documentation, and open-source code examples.
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+1. Rodar o streamlit
+   ```sh
+   streamlit run app/app.py
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ROADMAP -->
+## Objetivos futuros
+
+- [ ] Adicionar filtro baseado em conteúdo
+- [ ] Gerar um filtro hibrido
+- [ ] Permitir o usuário gerar recomendações pra si
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distribuido sob a licensa do MIT. Ver `LICENSE.txt` para mais informações.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/felmateos/movie-recommender-systems.svg?style=for-the-badge
+[contributors-url]: https://github.com/felmateos/movie-recommender-system/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/felmateos/movie-recommender-system.svg?style=for-the-badge
+[forks-url]: https://github.com/felmateos/movie-recommender-system/network/members
+[stars-shield]: https://img.shields.io/github/stars/felmateos/movie-recommender-system.svg?style=for-the-badge
+[stars-url]: https://github.com/felmateos/movie-recommender-system/stargazers
+[issues-shield]: https://img.shields.io/github/issues/felmateos/movie-recommender-system.svg?style=for-the-badge
+[issues-url]: https://github.com/felmateos/movie-recommender-system/issues
+[license-shield]: https://img.shields.io/github/license/felmateos/movie-recommender-system.svg?style=for-the-badge
+[license-url]: https://github.com/felmateos/movie-recommender-system/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/
+[product-screenshot]: assets\home_screen.png
+[Next-url]: https://nextjs.org/
+[Python]: https://img.shields.io/badge/python-20232A?style=for-the-badge&logo=python&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
