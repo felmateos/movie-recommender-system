@@ -55,7 +55,9 @@
 
 # Bem-vindo à EACHFLIX!
 
-Esta plataforma inovadora utiliza um sistema de recomendação baseado em filtro colaborativo com similaridade por cosseno. Ao integrar dados de filmes da Netflix obtidos do The Movie Database (TMDb), proporcionamos uma experiência personalizada, ajudando você a descobrir novos filmes com base nas suas preferências únicas.
+Esta plataforma inovadora utiliza um sistema de recomendação baseado em filtro colaborativo com similaridade por cosseno. Ao integrar dados de filmes da Netflix obtidos do The Movie Database (TMDb), proporcionamos uma experiência personalizada, ajudando você a descobrir novos filmes com base nas suas preferências únicas. Demo disponível em:
+
+<a href="https://eachflix.streamlit.app/">https://eachflix.streamlit.app/</a>
 
 ## Como Funciona:
 
