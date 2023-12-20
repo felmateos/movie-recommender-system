@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-[![Product Name Screen Shot][product-screenshot]](assets\home_screen.png)
+[![Product Name Screen Shot][product-screenshot]](assets/home_screen.png)
 
 # Bem-vindo à EACHFLIX!
 
