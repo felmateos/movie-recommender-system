@@ -37,7 +37,7 @@
   <h3 align="center">EACHFLIX</h3>
 
   <p align="center">
-    Sistema de recomendação de filmes
+    🎬 Explore seu Próximo Filme Favorito! Um sistema de recomendação colaborativa que personaliza sua experiência de entretenimento. 🍿✨
     <br />
     <br />
     <a href="https://eachflix.streamlit.app/">Ver Demo</a>
