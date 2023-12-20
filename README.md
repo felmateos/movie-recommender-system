@@ -122,7 +122,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- LICENSE -->
 ## License
 
-Distribuido sob a licensa do MIT. Ver `LICENSE.txt` para mais informações.
+Distribuido sob a licença do MIT. Ver `LICENSE.txt` para mais informações.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
