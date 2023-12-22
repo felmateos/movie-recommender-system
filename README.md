@@ -142,7 +142,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/felmateos/movie-recommender-systems.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/felmateos/movie-recommender-system.svg?style=for-the-badge
 [contributors-url]: https://github.com/felmateos/movie-recommender-system/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/felmateos/movie-recommender-system.svg?style=for-the-badge
 [forks-url]: https://github.com/felmateos/movie-recommender-system/network/members
@@ -152,8 +152,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/felmateos/movie-recommender-system/issues
 [license-shield]: https://img.shields.io/github/license/felmateos/movie-recommender-system.svg?style=for-the-badge
 [license-url]: https://github.com/felmateos/movie-recommender-system/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=259
+[linkedin-url]: https://linkedin.com/in/felmateos
 [product-screenshot]: assets/home_screen.png
 [Next-url]: https://nextjs.org/
 [Python]: https://img.shields.io/badge/python-20232A?style=for-the-badge&logo=python&logoColor=61DAFB
